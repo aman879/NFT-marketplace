@@ -29,8 +29,23 @@ class App extends Component {
       console.log("Wallet not detected");
     } else {
       this.setState({ wallet: true });
+      this.switchNetwork();
     }
   }
+
+  switchNetwork = async () => {
+    const chainIdHex = `0xaa36a7`;
+    
+    try {
+      await window.ethereum.request({
+        method: "wallet_switchEthereumChain",
+        params: [{ chainId: chainIdHex }],
+      });
+      console.log("Network switched successfully");
+    } catch (error) {
+      console.error("Error switching network:", error);
+    }
+  };
 
   onRouteChange = (route) => {
     this.setState({ route });
