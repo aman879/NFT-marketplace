@@ -1,0 +1,36 @@
+{
+    "flowerlist": [
+      {
+        "category": "Shrubs",
+        "price": 1.99,
+        "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
+        "photo": "https://cdn.britannica.com/96/6096-050-6A94E6DF/Azalea.jpg",
+        "name": "Azalea",
+        "id": 1
+      },
+      {
+        "category": "Shrubs",
+        "price": 3.99,
+        "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjjzM2sTtAkKkbO6lfV0i7MsGiuZT6EHF9patk_59a6rEaTS7fLS_0Vmmkebo4FSXh5Pwr-nPhivbuwKeE6IcJpoViQW10GX3-IkP-sg",
+        "name": "Tibouchina Semidecandra",
+        "id": 2
+      },
+      {
+        "category": "Shrubs",
+        "price": 1.99,
+        "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuKdt_z7fxU0CzPcPeic8QC6nMXXTcUnIdKkgZgPt40JbxiMgdvg&s",
+        "name": "Hibiscus",
+        "id": 3
+      },
+      {
+        "category": "Shrubs",
+        "price": 5.99,
+        "instructions": "Quick-growing, herbaceous, shrub reaching up to 30 inches in height, forming a rounded, dense bush.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKJvWNMOqo3AK5e7ebEXiZiJv439nAShRVA&s",
+        "name": "Plectranthus",
+        "id": 4
+      }
+    ]
+}
