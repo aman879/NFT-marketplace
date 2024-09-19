@@ -9,7 +9,11 @@ const Navbar = ({ onRouteChange, onConnectWallet, connected, walletAddress }) =>
       </div>
       <div className="nav-right">
         <p onClick={() => onRouteChange("home")}>Home</p>
-        <p onClick={() => onRouteChange("cart")}>Cart</p>
+        <p 
+          // onClick={() => onRouteChange("cart")}
+        >
+          Cart
+        </p>
         <button
          onClick={onConnectWallet}
          disabled={connected}
