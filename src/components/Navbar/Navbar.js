@@ -5,10 +5,11 @@ const Navbar = ({ onRouteChange, onConnectWallet, connected, walletAddress }) =>
   return (
     <nav>
       <div className="nav-left">
-        <p>Flower Marketplace</p>
+        <p>NFT Marketplace</p>
       </div>
       <div className="nav-right">
         <p onClick={() => onRouteChange("home")}>Home</p>
+        <p onClick={() => onRouteChange("mint")}>Mint</p>
         <p 
           // onClick={() => onRouteChange("cart")}
         >

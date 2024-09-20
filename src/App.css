@@ -10,10 +10,14 @@
   }
   
   .tx-notification.success {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+  }
+  
+  .tx-notification.loading {
+    background-color: #d9ffb3; 
   }
   
   .tx-notification.error {
-    background-color: #F44336; /* Red */
+    background-color: #F44336;
   }
   

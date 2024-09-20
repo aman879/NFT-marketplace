@@ -1,0 +1,1 @@
+export const contractAddress = require("./contracts/contract-address-sepolia.json");
